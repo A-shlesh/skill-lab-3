@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Profile</title>
+</head>
+<body>
+
+  <header>
+    <h1>Student Profile</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#courses">Courses</a> |
+      <a href="#form">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="student.jpg" alt="Photo of Ashlesh" width="150">
+      <p>My name is Ashlesh. I am a Computer Science student.</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="courses">
+      <h2>Courses</h2>
+      <table border="1">
+        <tr>
+          <th>Code</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td>CS101</td>
+          <td>Web Development</td>
+        </tr>
+        <tr>
+          <td>CS102</td>
+          <td>Python</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="form">
+      <h2>Register</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course">
+          <option>Web Development</option>
+          <option>Python</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ashlesh</p>
+  </footer>
+
+</body>
+</html>
